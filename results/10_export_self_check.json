@@ -1,0 +1,135 @@
+{
+ "export_matches_fit": true,
+ "detection": [
+  {
+   "device": "WeMoMotion",
+   "clean_alarm_export": 0.0138,
+   "clean_alarm_fit": 0.0138,
+   "detection_export": 0.7222,
+   "detection_fit": 0.7222,
+   "n_even_instances": 18
+  },
+  {
+   "device": "WeMoSwitch",
+   "clean_alarm_export": 0.0075,
+   "clean_alarm_fit": 0.0075,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 12
+  },
+  {
+   "device": "SamsungCamera",
+   "clean_alarm_export": 0.008,
+   "clean_alarm_fit": 0.008,
+   "detection_export": 0.9524,
+   "detection_fit": 0.9524,
+   "n_even_instances": 21
+  },
+  {
+   "device": "TPLinkPlug",
+   "clean_alarm_export": 0.0108,
+   "clean_alarm_fit": 0.0108,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 13
+  },
+  {
+   "device": "NetatmoCamera",
+   "clean_alarm_export": 0.0,
+   "clean_alarm_fit": 0.0,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 10
+  },
+  {
+   "device": "HueBulb",
+   "clean_alarm_export": 0.004,
+   "clean_alarm_fit": 0.004,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 15
+  },
+  {
+   "device": "Echo",
+   "clean_alarm_export": 0.0032,
+   "clean_alarm_fit": 0.0032,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 4
+  },
+  {
+   "device": "Chromecast",
+   "clean_alarm_export": 0.003,
+   "clean_alarm_fit": 0.003,
+   "detection_export": 0.6154,
+   "detection_fit": 0.6154,
+   "n_even_instances": 13
+  },
+  {
+   "device": "iHome",
+   "clean_alarm_export": 0.0955,
+   "clean_alarm_fit": 0.0955,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 1
+  },
+  {
+   "device": "LIFX",
+   "clean_alarm_export": 0.0117,
+   "clean_alarm_fit": 0.0117,
+   "detection_export": 1.0,
+   "detection_fit": 1.0,
+   "n_even_instances": 7
+  }
+ ],
+ "identity": [
+  {
+   "device": "HueBulb",
+   "acceptance_export": 0.6142,
+   "acceptance_fit": 0.6142,
+   "windows": 197
+  },
+  {
+   "device": "Echo",
+   "acceptance_export": 0.3092,
+   "acceptance_fit": 0.3092,
+   "windows": 249
+  },
+  {
+   "device": "TPLinkPlug",
+   "acceptance_export": 0.7883,
+   "acceptance_fit": 0.7883,
+   "windows": 463
+  },
+  {
+   "device": "NetatmoCamera",
+   "acceptance_export": 1.0,
+   "acceptance_fit": 1.0,
+   "windows": 464
+  },
+  {
+   "device": "iHome",
+   "acceptance_export": 0.7575,
+   "acceptance_fit": 0.7575,
+   "windows": 268
+  },
+  {
+   "device": "LIFX",
+   "acceptance_export": 0.8594,
+   "acceptance_fit": 0.8594,
+   "windows": 249
+  },
+  {
+   "device": "WeMoSwitch",
+   "acceptance_export": 0.9654,
+   "acceptance_fit": 0.9654,
+   "windows": 463
+  },
+  {
+   "device": "WeMoMotion",
+   "acceptance_export": 0.8877,
+   "acceptance_fit": 0.8877,
+   "windows": 463
+  }
+ ]
+}

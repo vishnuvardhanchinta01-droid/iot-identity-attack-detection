@@ -1,0 +1,29 @@
+{
+ "prereg_sha256": "6a88064b6d99da9f38e441c71c2cef26a334a439fb51ac423a8d36393cac70b4",
+ "chain_block": "8b12ed33ddd4466ec65f0a8aebd2c7d656c636149113a4a877788243426d154a",
+ "data_hashes": {
+  "flowdata.zip": "04131cbe9ccd255b2bf001aaee029ae8e84f9542f7440412a1dd28ac80e40295",
+  "annotations.zip": "1990c33d5430c4939336d79b08e9ba6a90a8c97621069cb748c3c0282d1eaafd"
+ },
+ "C2a_D3": {
+  "clean_det": 1.0,
+  "poisoned_det": 0.9407051282051282,
+  "d3_det": 0.919871794871795,
+  "d3_alarm": 0.0079401546764362,
+  "clean_alarm": 0.00771277743032051,
+  "attack_null": false,
+  "D3_effective": true,
+  "verdict": "D3_EFFECTIVE"
+ },
+ "C2b_D4": {
+  "clean_partner": 0.0,
+  "poisoned_partner": 0.0,
+  "d4_partner": 0.0,
+  "clean_honest": 0.9078517092126606,
+  "poisoned_honest": 0.9340818999540278,
+  "d4_honest": 0.9336041068521747,
+  "attack_null": true,
+  "D4_effective": true,
+  "verdict": "ATTACK_NULL"
+ }
+}

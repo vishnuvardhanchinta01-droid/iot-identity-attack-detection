@@ -1,0 +1,37 @@
+{
+ "prereg_sha256": "6a88064b6d99da9f38e441c71c2cef26a334a439fb51ac423a8d36393cac70b4",
+ "chain_block": "8b12ed33ddd4466ec65f0a8aebd2c7d656c636149113a4a877788243426d154a",
+ "data_hashes": {
+  "flowdata.zip": "04131cbe9ccd255b2bf001aaee029ae8e84f9542f7440412a1dd28ac80e40295",
+  "annotations.zip": "1990c33d5430c4939336d79b08e9ba6a90a8c97621069cb748c3c0282d1eaafd"
+ },
+ "C1_D1": {
+  "ref_id": 0.005130597014925373,
+  "naive_id": 0.0,
+  "adaptive_layered": 0.0,
+  "honest_id": 0.9078517092126605,
+  "honest_layered": 0.9026827251410249,
+  "attack_null": true,
+  "ok_abs": true,
+  "ok_rel": true,
+  "ok_cost": true,
+  "D1_effective": true,
+  "verdict": "ATTACK_NULL"
+ },
+ "C1_honest": {
+  "honest_id": 0.9078517092126605,
+  "honest_layered": 0.9026827251410249
+ },
+ "C3_summary": {
+  "n_flip": 1000,
+  "n_flip_refused": 1000,
+  "unmodified_accepted": true,
+  "all_expected": true,
+  "canary_fired": false
+ },
+ "C3_D5": {
+  "D5_effective": true,
+  "verdict": "D5_EFFECTIVE",
+  "replay_without_floor_accepted": true
+ }
+}

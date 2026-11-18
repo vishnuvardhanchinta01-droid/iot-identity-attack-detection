@@ -1,0 +1,297 @@
+{
+ "protocol_sha256": "b4f61d31282cb0ba14333804d6391048d8dc130dde0d5459c8558bb3bdc65ec8",
+ "chain_block": "659469f4a5a5070b210813fe6af797eb90899a0787dfafaed6c2733891f5ea0f",
+ "data_hashes": {
+  "flowdata.zip": "04131cbe9ccd255b2bf001aaee029ae8e84f9542f7440412a1dd28ac80e40295",
+  "annotations.zip": "1990c33d5430c4939336d79b08e9ba6a90a8c97621069cb748c3c0282d1eaafd"
+ },
+ "acfg": {
+  "seeds": [
+   11,
+   22,
+   33
+  ],
+  "ae_epochs": 60,
+  "ae_hidden": [
+   64,
+   16,
+   64
+  ],
+  "tae_hidden": [
+   128,
+   32,
+   128
+  ],
+  "tae_lags": 10,
+  "cap_dev": 40000,
+  "cap_pool": 150000,
+  "min_dev_inst": 4,
+  "clip": 20.0,
+  "roll_win": 4320,
+  "roll_min": 1440,
+  "k_grid": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   12,
+   15,
+   20,
+   30
+  ],
+  "alarm_adm": 0.02,
+  "det_margin": 0.05,
+  "alarm_slack": 0.005,
+  "boot_inst": 2000,
+  "boot_seed": 20261108
+ },
+ "identity": {
+  "primary": "RF-vote3",
+  "admitted": [
+   "RF-single",
+   "RF-vote3",
+   "XGB-single",
+   "XGB-vote3"
+  ],
+  "mlp_admission": [
+   "MLP-single vs RF-single: G2 gains per seed [-0.004, -0.026, -0.028] -> not admitted",
+   "MLP-vote3 vs XGB-vote3: G2 gains per seed [0.013, 0.009, 0.001] -> not admitted"
+  ],
+  "held_gates": {
+   "MLP-single": {
+    "G1": 0.9998373935973897,
+    "G2": 0.9290432602242268,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 0.909320809248555,
+    "G6": 0.04469012140078954
+   },
+   "MLP-vote3": {
+    "G1": 1.0,
+    "G2": 0.9187259929612871,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 0.9082369942196532,
+    "G6": 0.04521871008939978
+   },
+   "RF-single": {
+    "G1": 1.0,
+    "G2": 0.9486694975230007,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "RF-vote3": {
+    "G1": 1.0,
+    "G2": 0.902721596167456,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "XGB-single": {
+    "G1": 0.9998114629395288,
+    "G2": 0.900984734511149,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "XGB-vote3": {
+    "G1": 1.0,
+    "G2": 0.9110790077912596,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   }
+  }
+ },
+ "detection": {
+  "selected": {
+   "family": "AE",
+   "mode": "static",
+   "scope": "G0",
+   "det_by_seed": [
+    0.7975108225108225,
+    0.7957471540804875,
+    0.7895743145743146
+   ],
+   "alarm_by_seed": [
+    0.017242407387765765,
+    0.017606228624527858,
+    0.01585163919277828
+   ],
+   "det_mean": 0.7942774303885415,
+   "alarm_mean": 0.016900091735023968,
+   "admissible": true,
+   "mr": 0,
+   "sr": 0,
+   "d": 0.794277430389
+  },
+  "effective": {
+   "family": "AE",
+   "mode": "static",
+   "scope": "G0",
+   "det_by_seed": [
+    0.7975108225108225,
+    0.7957471540804875,
+    0.7895743145743146
+   ],
+   "alarm_by_seed": [
+    0.017242407387765765,
+    0.017606228624527858,
+    0.01585163919277828
+   ],
+   "det_mean": 0.7942774303885415,
+   "alarm_mean": 0.016900091735023968,
+   "admissible": true,
+   "mr": 0,
+   "sr": 0,
+   "d": 0.794277430389
+  },
+  "ladder_log": [
+   "IF: no admissible configuration",
+   "AE: incumbent static/G0 det 0.794 alarm 0.0169",
+   "TAE: best static/G0 det 0.769 alarm 0.0179; gains per seed [-0.034, -0.019, -0.022] -> does not replace AE"
+  ],
+  "routing": "routing_not_selected_global_is_best"
+ },
+ "tiers": [
+  {
+   "device": "SamsungCamera",
+   "mac": "00166cab6b88",
+   "tier": "UNREGISTERED",
+   "f1": 1.0,
+   "acceptance": 0.22021116138763197,
+   "claim_rejection": 1.0,
+   "identity_supported": false,
+   "det": 0.7142857142857143,
+   "alarm": 0.0011420126293161359,
+   "n_dev_inst": 21,
+   "detection_supported": false
+  },
+  {
+   "device": "HueBulb",
+   "mac": "0017882b9a25",
+   "tier": "UNREGISTERED",
+   "f1": 1.0,
+   "acceptance": 0.7759999999999999,
+   "claim_rejection": 1.0,
+   "identity_supported": false,
+   "det": 0.9333333333333332,
+   "alarm": 0.05276842167464398,
+   "n_dev_inst": 15,
+   "detection_supported": false
+  },
+  {
+   "device": "Echo",
+   "mac": "44650d56ccd3",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.9404444444444445,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.8000000000000002,
+   "alarm": 0.0006500029545588843,
+   "n_dev_inst": 5,
+   "detection_supported": true
+  },
+  {
+   "device": "TPLinkPlug",
+   "mac": "50c7bf005639",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9281045751633986,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.7142857142857143,
+   "alarm": 0.0024522153918505826,
+   "n_dev_inst": 14,
+   "detection_supported": false
+  },
+  {
+   "device": "NetatmoCamera",
+   "mac": "70ee50183443",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 1.0,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.5454545454545454,
+   "alarm": 0.0,
+   "n_dev_inst": 11,
+   "detection_supported": false
+  },
+  {
+   "device": "iHome",
+   "mac": "74c63b29d71d",
+   "tier": "UNREGISTERED",
+   "f1": 1.0,
+   "acceptance": 0.6305732484076433,
+   "claim_rejection": 1.0,
+   "identity_supported": false,
+   "det": 1.0,
+   "alarm": 9.440196356084206e-05,
+   "n_dev_inst": 2,
+   "detection_supported": false
+  },
+  {
+   "device": "LIFX",
+   "mac": "d073d5018308",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.8728888888888888,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.875,
+   "alarm": 0.00011822427144292723,
+   "n_dev_inst": 8,
+   "detection_supported": true
+  },
+  {
+   "device": "WeMoSwitch",
+   "mac": "ec1a5979f489",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.8989441930618401,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 1.0,
+   "alarm": 0.0019481391911863495,
+   "n_dev_inst": 12,
+   "detection_supported": true
+  },
+  {
+   "device": "WeMoMotion",
+   "mac": "ec1a59832811",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9386626445449974,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.6851851851851851,
+   "alarm": 0.003829101168883515,
+   "n_dev_inst": 18,
+   "detection_supported": false
+  },
+  {
+   "device": "Chromecast",
+   "mac": "f4f5d88f0a3c",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9475555555555556,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.8809523809523809,
+   "alarm": 0.08919270833333333,
+   "n_dev_inst": 14,
+   "detection_supported": false
+  }
+ ]
+}

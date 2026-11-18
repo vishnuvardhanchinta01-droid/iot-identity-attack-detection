@@ -1,0 +1,244 @@
+{
+ "prereg_sha256": "efe5ebf0652824f9f1640220d91499abef63af05bfe43901d386c7d8a8feea5c",
+ "chain_block": "f84a4e9dbc2eae08c64d02c79980bb77008239add59d6b3e24faa850a0aaa9fd",
+ "data_hashes": {
+  "flowdata.zip": "04131cbe9ccd255b2bf001aaee029ae8e84f9542f7440412a1dd28ac80e40295",
+  "annotations.zip": "1990c33d5430c4939336d79b08e9ba6a90a8c97621069cb748c3c0282d1eaafd"
+ },
+ "H1": {
+  "gates": {
+   "G1": 0.9942869450491735,
+   "G2": 0.7930149017477689,
+   "G3": 0.9996448863636364,
+   "G4": 1.0,
+   "G5": 1.0,
+   "G6": 8.520064752493006e-05
+  },
+  "passes": {
+   "G1": true,
+   "G2": false,
+   "G3": true,
+   "G4": true,
+   "G5": true,
+   "G6": true
+  },
+  "verdict": "PARTIAL"
+ },
+ "H3_H4": {
+  "H3_supported_of_five": 5,
+  "H3_verdict": "CONFIRMED",
+  "H4_unvalidated_not_supported": 2,
+  "H4_n": 3
+ },
+ "H5": {
+  "det_G1": 0.9280739836295392,
+  "det_G0": 0.8808664586442364,
+  "delta_by_seed": [
+   0.032,
+   0.06,
+   0.05
+  ],
+  "ci95": [
+   0.0034631212408990117,
+   0.09358838692172025
+  ],
+  "passes": false
+ },
+ "H6": {
+  "n_common": 8,
+  "det_E": 0.9162342287342288,
+  "det_G1": 0.9190832315832317,
+  "delta_by_seed": [
+   0.022,
+   -0.007,
+   -0.024
+  ],
+  "ci95": [
+   -0.027777777777777776,
+   0.018874643874643868
+  ],
+  "passes": false
+ },
+ "supported_by_scope": {
+  "E": [
+   "HueBulb",
+   "LIFX",
+   "NetatmoCamera",
+   "SamsungCamera",
+   "TPLinkPlug",
+   "WeMoSwitch"
+  ],
+  "G1": [
+   "Echo",
+   "HueBulb",
+   "LIFX",
+   "NetatmoCamera",
+   "SamsungCamera",
+   "TPLinkPlug",
+   "WeMoSwitch"
+  ],
+  "G0": [
+   "Echo",
+   "HueBulb",
+   "LIFX",
+   "NetatmoCamera",
+   "SamsungCamera",
+   "TPLinkPlug",
+   "WeMoSwitch"
+  ]
+ },
+ "tiers": [
+  {
+   "device": "WeMoMotion",
+   "phaseA_tier": "IDENTIFIED_UNVALIDATED",
+   "identity_supported": true,
+   "detection_supported": false,
+   "det": 0.7592592592592592,
+   "alarm": 0.012499999999999999,
+   "n_even": 18,
+   "final_tier": "IDENTIFIED_UNVALIDATED",
+   "changed": false
+  },
+  {
+   "device": "WeMoSwitch",
+   "phaseA_tier": "VERIFIED",
+   "identity_supported": true,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.007662835249042145,
+   "n_even": 12,
+   "final_tier": "VERIFIED",
+   "changed": false
+  },
+  {
+   "device": "SamsungCamera",
+   "phaseA_tier": "UNREGISTERED",
+   "identity_supported": true,
+   "detection_supported": true,
+   "det": 0.9523809523809522,
+   "alarm": 0.007951334003927767,
+   "n_even": 21,
+   "final_tier": "UNREGISTERED",
+   "changed": false
+  },
+  {
+   "device": "TPLinkPlug",
+   "phaseA_tier": "VERIFIED",
+   "identity_supported": true,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.011013743236125077,
+   "n_even": 13,
+   "final_tier": "VERIFIED",
+   "changed": false
+  },
+  {
+   "device": "NetatmoCamera",
+   "phaseA_tier": "VERIFIED",
+   "identity_supported": true,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.0,
+   "n_even": 10,
+   "final_tier": "VERIFIED",
+   "changed": false
+  },
+  {
+   "device": "HueBulb",
+   "phaseA_tier": "IDENTIFIED_UNVALIDATED",
+   "identity_supported": false,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.0050573162508428865,
+   "n_even": 15,
+   "final_tier": "IDENTIFIED_UNVALIDATED",
+   "changed": false
+  },
+  {
+   "device": "Echo",
+   "phaseA_tier": "VERIFIED",
+   "identity_supported": false,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.005511111111111112,
+   "n_even": 4,
+   "final_tier": "UNREGISTERED",
+   "changed": true
+  },
+  {
+   "device": "Chromecast",
+   "phaseA_tier": "IDENTIFIED_UNVALIDATED",
+   "identity_supported": false,
+   "detection_supported": false,
+   "det": 0.6410256410256411,
+   "alarm": 0.004655029093931837,
+   "n_even": 13,
+   "final_tier": "IDENTIFIED_UNVALIDATED",
+   "changed": false
+  },
+  {
+   "device": "iHome",
+   "phaseA_tier": "IDENTIFIED_UNVALIDATED",
+   "identity_supported": false,
+   "detection_supported": false,
+   "det": 1.0,
+   "alarm": 0.09658333333333334,
+   "n_even": 1,
+   "final_tier": "IDENTIFIED_UNVALIDATED",
+   "changed": false
+  },
+  {
+   "device": "LIFX",
+   "phaseA_tier": "VERIFIED",
+   "identity_supported": true,
+   "detection_supported": true,
+   "det": 1.0,
+   "alarm": 0.012174531236114812,
+   "n_even": 7,
+   "final_tier": "VERIFIED",
+   "changed": false
+  }
+ ],
+ "tier_ci95": {
+  "WeMoMotion": [
+   0.5555555555555556,
+   0.9259259259259258
+  ],
+  "WeMoSwitch": [
+   1.0,
+   1.0
+  ],
+  "SamsungCamera": [
+   0.8571428571428571,
+   1.0
+  ],
+  "TPLinkPlug": [
+   1.0,
+   1.0
+  ],
+  "NetatmoCamera": [
+   1.0,
+   1.0
+  ],
+  "HueBulb": [
+   1.0,
+   1.0
+  ],
+  "Echo": [
+   1.0,
+   1.0
+  ],
+  "Chromecast": [
+   0.38461538461538464,
+   0.8717948717948718
+  ],
+  "iHome": [
+   NaN,
+   NaN
+  ],
+  "LIFX": [
+   1.0,
+   1.0
+  ]
+ }
+}

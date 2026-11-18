@@ -1,0 +1,362 @@
+{
+ "source": "Phase B (Track C) pre-registered results; post hoc sets 1 and 2 (exploratory, seed 11). Numbers generated from the result files by build_results_json.py.",
+ "devices": [
+  {
+   "device": "WeMoMotion",
+   "verified": false,
+   "attacks": 18,
+   "detected": 13,
+   "det": 0.7222,
+   "det_lo": 0.4913,
+   "det_hi": 0.875,
+   "alarm": 0.0138,
+   "alerts_day": 2.2759,
+   "confirmed": 0.8877,
+   "not_confident": 0.1123,
+   "false_acc": 0.0,
+   "latency_med": 1.9459
+  },
+  {
+   "device": "WeMoSwitch",
+   "verified": true,
+   "attacks": 12,
+   "detected": 12,
+   "det": 1.0,
+   "det_lo": 0.7575,
+   "det_hi": 1.0,
+   "alarm": 0.0075,
+   "alerts_day": 1.2414,
+   "confirmed": 0.9654,
+   "not_confident": 0.0346,
+   "false_acc": 0.0,
+   "latency_med": 2.1164
+  },
+  {
+   "device": "SamsungCamera",
+   "verified": false,
+   "attacks": 21,
+   "detected": 20,
+   "det": 0.9524,
+   "det_lo": 0.7733,
+   "det_hi": 0.9915,
+   "alarm": 0.008,
+   "alerts_day": 3.3108,
+   "confirmed": null,
+   "not_confident": null,
+   "false_acc": null,
+   "latency_med": 1.9933
+  },
+  {
+   "device": "TPLinkPlug",
+   "verified": true,
+   "attacks": 13,
+   "detected": 13,
+   "det": 1.0,
+   "det_lo": 0.7719,
+   "det_hi": 1.0,
+   "alarm": 0.0108,
+   "alerts_day": 1.8618,
+   "confirmed": 0.7819,
+   "not_confident": 0.2181,
+   "false_acc": 0.0,
+   "latency_med": 1.9959
+  },
+  {
+   "device": "NetatmoCamera",
+   "verified": true,
+   "attacks": 10,
+   "detected": 10,
+   "det": 1.0,
+   "det_lo": 0.7225,
+   "det_hi": 1.0,
+   "alarm": 0.0,
+   "alerts_day": 0.0,
+   "confirmed": 1.0,
+   "not_confident": 0.0,
+   "false_acc": 0.0,
+   "latency_med": 1.4779
+  },
+  {
+   "device": "HueBulb",
+   "verified": false,
+   "attacks": 15,
+   "detected": 15,
+   "det": 1.0,
+   "det_lo": 0.7961,
+   "det_hi": 1.0,
+   "alarm": 0.004,
+   "alerts_day": 0.971,
+   "confirmed": 0.6041,
+   "not_confident": 0.3959,
+   "false_acc": 0.0,
+   "latency_med": 2.2978
+  },
+  {
+   "device": "Echo",
+   "verified": false,
+   "attacks": 4,
+   "detected": 4,
+   "det": 1.0,
+   "det_lo": 0.5101,
+   "det_hi": 1.0,
+   "alarm": 0.0032,
+   "alerts_day": 0.384,
+   "confirmed": 0.3092,
+   "not_confident": 0.6908,
+   "false_acc": 0.0,
+   "latency_med": 1.8596
+  },
+  {
+   "device": "Chromecast",
+   "verified": false,
+   "attacks": 13,
+   "detected": 8,
+   "det": 0.6154,
+   "det_lo": 0.3552,
+   "det_hi": 0.8229,
+   "alarm": 0.003,
+   "alerts_day": 0.3591,
+   "confirmed": null,
+   "not_confident": null,
+   "false_acc": null,
+   "latency_med": 2.165
+  },
+  {
+   "device": "iHome",
+   "verified": false,
+   "attacks": 1,
+   "detected": 1,
+   "det": 1.0,
+   "det_lo": 0.2065,
+   "det_hi": 1.0,
+   "alarm": 0.0955,
+   "alerts_day": 6.84,
+   "confirmed": 0.7575,
+   "not_confident": 0.1716,
+   "false_acc": 0.056,
+   "latency_med": 1.8867
+  },
+  {
+   "device": "LIFX",
+   "verified": true,
+   "attacks": 7,
+   "detected": 7,
+   "det": 1.0,
+   "det_lo": 0.6457,
+   "det_hi": 1.0,
+   "alarm": 0.0117,
+   "alerts_day": 3.0712,
+   "confirmed": 0.8594,
+   "not_confident": 0.1406,
+   "false_acc": 0.0,
+   "latency_med": 1.8887
+  }
+ ],
+ "baselines": [
+  {
+   "device": "WeMoSwitch",
+   "AE": {
+    "det": 1.0,
+    "alarm": 0.0078,
+    "auroc": 0.9736
+   },
+   "B1_volume": {
+    "det": 1.0,
+    "alarm": 0.0101,
+    "auroc": 0.9544
+   },
+   "B2_robust_z": {
+    "det": 0.75,
+    "alarm": 0.0086,
+    "auroc": 0.8741
+   }
+  },
+  {
+   "device": "TPLinkPlug",
+   "AE": {
+    "det": 1.0,
+    "alarm": 0.0118,
+    "auroc": 0.9706
+   },
+   "B1_volume": {
+    "det": 0.7692,
+    "alarm": 0.0112,
+    "auroc": 0.9476
+   },
+   "B2_robust_z": {
+    "det": 0.7692,
+    "alarm": 0.0026,
+    "auroc": 0.9409
+   }
+  },
+  {
+   "device": "NetatmoCamera",
+   "AE": {
+    "det": 1.0,
+    "alarm": 0.0,
+    "auroc": 1.0
+   },
+   "B1_volume": {
+    "det": 1.0,
+    "alarm": 0.0,
+    "auroc": 1.0
+   },
+   "B2_robust_z": {
+    "det": 1.0,
+    "alarm": 0.0,
+    "auroc": 1.0
+   }
+  },
+  {
+   "device": "LIFX",
+   "AE": {
+    "det": 1.0,
+    "alarm": 0.0117,
+    "auroc": 0.9473
+   },
+   "B1_volume": {
+    "det": 0.8571,
+    "alarm": 0.0027,
+    "auroc": 0.8636
+   },
+   "B2_robust_z": {
+    "det": 0.8571,
+    "alarm": 0.0123,
+    "auroc": 0.9232
+   }
+  }
+ ],
+ "clone": [
+  {
+   "alpha": 0.0,
+   "mean": 0.0047,
+   "worst": 0.0375
+  },
+  {
+   "alpha": 0.25,
+   "mean": 0.0033,
+   "worst": 0.0262
+  },
+  {
+   "alpha": 0.5,
+   "mean": 0.0052,
+   "worst": 0.0375
+  },
+  {
+   "alpha": 0.75,
+   "mean": 0.0127,
+   "worst": 0.0677
+  },
+  {
+   "alpha": 0.9,
+   "mean": 0.0701,
+   "worst": 0.4173
+  },
+  {
+   "alpha": 1.0,
+   "mean": 0.8999,
+   "worst": 1.0
+  }
+ ],
+ "open_set": {
+  "accepted": 0,
+  "pairs": 8,
+  "text": "SamsungCamera and Chromecast (never seen by the identity model) claiming each verified device: accepted 0 times; 88% / 56% of windows marked UNCERTAIN / UNKNOWN."
+ },
+ "phaseB": {
+  "identity_macro_f1": 0.994,
+  "honest_accept_macro": 0.793,
+  "random_reject": 0.9996,
+  "hard_reject": 1.0,
+  "unknown_reject": 1.0,
+  "false_verification": 0.0001,
+  "h1": "PARTIAL (only the honest-acceptance gate, 0.79 < 0.80, failed)",
+  "h5": "Claimed-device input to the detector: +0.047 macro detection (95% CI +0.003 to +0.094); failed the declared rule (needed +0.05 in every seed; seed 11 gave +0.032).",
+  "h6": "Per-device detectors (routing): no gain over the shared detector (-0.003, CI -0.028 to +0.019)."
+ },
+ "speed": "Wrong claims: rejected in the first 15-minute window in 100% of trials. Detector alert after a median of 2 minutes (NetatmoCamera claiming TPLinkPlug never alerted: the identity check is what catches it). Attacks flagged about 2 minutes after they start.",
+ "cost": {
+  "det_us_per_minute": 1.63,
+  "id_ms_per_window": 0.086,
+  "model_mb": 0.59
+ },
+ "phaseC": {
+  "c1": {
+   "verdict": "ATTACK_NULL",
+   "text": "Black-box impersonation never got accepted: success 0.000 for naive and adaptive attackers at every bound and query budget (no-attack reference 0.005).",
+   "honest_alone": 0.908,
+   "honest_layered": 0.903
+  },
+  "c2a": {
+   "clean_detect": 1.0,
+   "clean_alarm": 0.008,
+   "rows": [
+    [
+     "5% poison, no defence",
+     0.941,
+     "CI 0.88-0.99"
+    ],
+    [
+     "10% poison, no defence",
+     0.892,
+     ""
+    ],
+    [
+     "5% poison, trimmed refit (D3)",
+     0.92,
+     ""
+    ],
+    [
+     "10% poison, trimmed refit (D3)",
+     0.9,
+     ""
+    ]
+   ],
+   "text": "Mislabelled attack minutes cost 6-11 points of detection, mostly on TPLinkPlug and WeMoSwitch. The trimmed refit passes the rule, but recovers nothing against no defence: weak evidence."
+  },
+  "c2b": {
+   "verdict": "ATTACK_NULL",
+   "text": "Poisoning identity with a partner device's windows: partner acceptance 0.000 at every rate. Label filtering removed 100% of poisoned windows and raised honest acceptance from 0.908 to 0.943 on clean data."
+  },
+  "c3": {
+   "verdict": "D5_EFFECTIVE",
+   "text": "1000/1000 byte flips refused, 100/100 manifest flips, 100/100 signature flips; every substitution refused; malicious pickle refused before loading. Replay of a whole older bundle is accepted unless a version floor is pinned."
+  }
+ },
+ "trackF": {
+  "text": "Exploratory rolling-origin check over time (4 folds). By the declared rule all four Verified devices are WITHDRAWN: alarm rate exceeded 5% in at least one block (Netatmo 0.996 in fold 2, LIFX 0.095 in fold 5, WeMoSwitch 0.062 in fold 3, TPLinkPlug 0.056 in fold 3). Identity is stable for WeMoSwitch, TPLinkPlug, LIFX; Netatmo is unstable.",
+  "rows": [
+   [
+    "WeMoSwitch",
+    "STABLE",
+    "alarm 0.062 in fold 3"
+   ],
+   [
+    "TPLinkPlug",
+    "STABLE",
+    "alarm 0.056 in fold 3"
+   ],
+   [
+    "NetatmoCamera",
+    "UNSTABLE",
+    "acceptance 0.001 in fold 2; alarm 0.996"
+   ],
+   [
+    "LIFX",
+    "STABLE",
+    "alarm 0.095 in fold 5"
+   ]
+  ]
+ },
+ "routing": "Identity-aware routing was tried 5 times and did not beat the plain detector. A wrong claim makes the detector flag 93-95% of benign minutes, so the detector itself is not the identity check. Reported as tried and failed.",
+ "limits": [
+  "Recorded traffic from one lab, two recording periods, scripted attacks. No claim of general IoT security.",
+  "Only four devices are claimed, as verified on the Phase B test days. Track F (over time) did not show them stable: thresholds drift and would need recalibration.",
+  "Small attack counts: 100% detection is compatible with a true rate as low as about 65-77% per device (95% interval).",
+  "Behaviour cannot tell a perfect clone from the real device. Partial clones (up to 90% copied) are mostly rejected; a perfect copy is accepted. Device attestation (a key on the device) is needed for that case.",
+  "A volume threshold matches the autoencoder on two of the four verified devices; the autoencoder adds most on TPLinkPlug and LIFX.",
+  "Impersonation was tested with a constant add-only black-box attacker; stronger attackers were not tested.",
+  "The signed bundle does not cover poisoning before signing or theft of the signing key.",
+  "Post hoc numbers are exploratory, seed 11, on test data that had already been opened."
+ ]
+}

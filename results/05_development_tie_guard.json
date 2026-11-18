@@ -1,0 +1,262 @@
+{
+ "protocol_sha256": "5e2721a33fafa8325e0b99fce764b1c750a565f473737de8d9fee6f36c20d313",
+ "chain_block": "8144fe4cf6f1f54d8cf064cd0a98ea6c3f258425796147db7b18e580fc4058e8",
+ "data_hashes": {
+  "flowdata.zip": "04131cbe9ccd255b2bf001aaee029ae8e84f9542f7440412a1dd28ac80e40295",
+  "annotations.zip": "1990c33d5430c4939336d79b08e9ba6a90a8c97621069cb748c3c0282d1eaafd"
+ },
+ "a2": {
+  "modes": [
+   "static",
+   "rollq",
+   "both"
+  ],
+  "roll_q": 0.99,
+  "roll_win": 4320,
+  "roll_min": 1440,
+  "block": 10,
+  "det_min": 0.8,
+  "alarm_max": 0.02,
+  "oof_folds": 5,
+  "oof_trees": 300,
+  "id_arms": [
+   "RF-single",
+   "RF-vote3"
+  ],
+  "rules": [
+   "T0",
+   "T1"
+  ],
+  "tie_tol": 0.01
+ },
+ "identity": {
+  "primary_arm": "RF-vote3",
+  "rule": "T1",
+  "adopt_T1": true,
+  "held_gates": {
+   "RF-single|T0": {
+    "G1": 1.0,
+    "G2": 0.9486694975230007,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "RF-single|T1": {
+    "G1": 1.0,
+    "G2": 0.9397072049136493,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "RF-vote3|T0": {
+    "G1": 1.0,
+    "G2": 0.902721596167456,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   },
+   "RF-vote3|T1": {
+    "G1": 1.0,
+    "G2": 0.9250567452197277,
+    "G3": 1.0,
+    "G4": 1.0,
+    "G5": 1.0,
+    "G6": 0.0
+   }
+  }
+ },
+ "detection": {
+  "selected": {
+   "mode": "static",
+   "scope": "E",
+   "n_supported": 8,
+   "supported": [
+    "Chromecast",
+    "Echo",
+    "HueBulb",
+    "LIFX",
+    "NetatmoCamera",
+    "SamsungCamera",
+    "TPLinkPlug",
+    "WeMoSwitch"
+   ],
+   "det_supported": 0.9246527777777778,
+   "det_all": 0.9062757201646091,
+   "alarm_all": 0.009698803885302575,
+   "alarm_block_all": 0.01809349573866221,
+   "worst_alarm_device": "HueBulb",
+   "worst_alarm": 0.01861372097145896,
+   "mr": 0,
+   "sr": 2,
+   "d": 0.924652777778
+  },
+  "effective": {
+   "mode": "static",
+   "scope": "G1",
+   "n_supported": 6,
+   "supported": [
+    "Echo",
+    "LIFX",
+    "NetatmoCamera",
+    "SamsungCamera",
+    "TPLinkPlug",
+    "WeMoSwitch"
+   ],
+   "det_supported": 0.9273148148148148,
+   "det_all": 0.8977513227513229,
+   "alarm_all": 0.01103731153888214,
+   "alarm_block_all": 0.02098827825268452,
+   "worst_alarm_device": "HueBulb",
+   "worst_alarm": 0.03291378597175442,
+   "mr": 0,
+   "sr": 1,
+   "d": 0.927314814815
+  },
+  "routing": "routing_removed_tried_and_failed"
+ },
+ "tiers": [
+  {
+   "device": "SamsungCamera",
+   "mac": "00166cab6b88",
+   "tier": "UNREGISTERED",
+   "f1": 1.0,
+   "acceptance": 0.2031171442936149,
+   "claim_rejection": 1.0,
+   "identity_supported": false,
+   "det": 0.8888888888888888,
+   "alarm": 0.011050651618970847,
+   "block": 0.017137096774193547,
+   "n_dev_inst": 21.0,
+   "detection_supported": true
+  },
+  {
+   "device": "HueBulb",
+   "mac": "0017882b9a25",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9804444444444446,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 1.0,
+   "alarm": 0.03291378597175442,
+   "block": 0.08628841607565012,
+   "n_dev_inst": 15.0,
+   "detection_supported": false
+  },
+  {
+   "device": "Echo",
+   "mac": "44650d56ccd3",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.9404444444444445,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.8000000000000002,
+   "alarm": 0.006204573657152987,
+   "block": 0.015366430260047281,
+   "n_dev_inst": 5.0,
+   "detection_supported": true
+  },
+  {
+   "device": "TPLinkPlug",
+   "mac": "50c7bf005639",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.9351432880844645,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 1.0,
+   "alarm": 0.009204205717356981,
+   "block": 0.0026881720430107525,
+   "n_dev_inst": 14.0,
+   "detection_supported": true
+  },
+  {
+   "device": "NetatmoCamera",
+   "mac": "70ee50183443",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 1.0,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 1.0,
+   "alarm": 0.0,
+   "block": 0.0,
+   "n_dev_inst": 11.0,
+   "detection_supported": true
+  },
+  {
+   "device": "iHome",
+   "mac": "74c63b29d71d",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.8223637650389243,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": NaN,
+   "alarm": NaN,
+   "block": NaN,
+   "n_dev_inst": NaN,
+   "detection_supported": false
+  },
+  {
+   "device": "LIFX",
+   "mac": "d073d5018308",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.9226666666666667,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.875,
+   "alarm": 0.01205887568717858,
+   "block": 0.020722320899940794,
+   "n_dev_inst": 8.0,
+   "detection_supported": true
+  },
+  {
+   "device": "WeMoSwitch",
+   "mac": "ec1a5979f489",
+   "tier": "VERIFIED",
+   "f1": 1.0,
+   "acceptance": 0.923076923076923,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 1.0,
+   "alarm": 0.007288727663576515,
+   "block": 0.009072580645161291,
+   "n_dev_inst": 12.0,
+   "detection_supported": true
+  },
+  {
+   "device": "WeMoMotion",
+   "mac": "ec1a59832811",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9477124183006534,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.7777777777777778,
+   "alarm": 0.008363563079403467,
+   "block": 0.015120967741935484,
+   "n_dev_inst": 18.0,
+   "detection_supported": false
+  },
+  {
+   "device": "Chromecast",
+   "mac": "f4f5d88f0a3c",
+   "tier": "IDENTIFIED_UNVALIDATED",
+   "f1": 1.0,
+   "acceptance": 0.9191111111111111,
+   "claim_rejection": 1.0,
+   "identity_supported": true,
+   "det": 0.7380952380952381,
+   "alarm": 0.012251420454545456,
+   "block": 0.022498519834221437,
+   "n_dev_inst": 14.0,
+   "detection_supported": false
+  }
+ ]
+}

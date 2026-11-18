@@ -1,0 +1,115 @@
+{
+ "seed": 11,
+ "system": "Phase B (Track C): TRAIN-fitted; identity = held-out run (8 known, 2 unknown); detector = G1 over all 10 devices",
+ "devices": {
+  "WeMoMotion": {
+   "mac": "ec1a59832811",
+   "cohort": 1,
+   "onehot_index": 0
+  },
+  "WeMoSwitch": {
+   "mac": "ec1a5979f489",
+   "cohort": 1,
+   "onehot_index": 1
+  },
+  "SamsungCamera": {
+   "mac": "00166cab6b88",
+   "cohort": 1,
+   "onehot_index": 2
+  },
+  "TPLinkPlug": {
+   "mac": "50c7bf005639",
+   "cohort": 1,
+   "onehot_index": 3
+  },
+  "NetatmoCamera": {
+   "mac": "70ee50183443",
+   "cohort": 1,
+   "onehot_index": 4
+  },
+  "HueBulb": {
+   "mac": "0017882b9a25",
+   "cohort": 2,
+   "onehot_index": 5
+  },
+  "Echo": {
+   "mac": "44650d56ccd3",
+   "cohort": 2,
+   "onehot_index": 6
+  },
+  "Chromecast": {
+   "mac": "f4f5d88f0a3c",
+   "cohort": 2,
+   "onehot_index": 7
+  },
+  "iHome": {
+   "mac": "74c63b29d71d",
+   "cohort": 2,
+   "onehot_index": 8
+  },
+  "LIFX": {
+   "mac": "d073d5018308",
+   "cohort": 2,
+   "onehot_index": 9
+  }
+ },
+ "known": [
+  "HueBulb",
+  "Echo",
+  "TPLinkPlug",
+  "NetatmoCamera",
+  "iHome",
+  "LIFX",
+  "WeMoSwitch",
+  "WeMoMotion"
+ ],
+ "unknown": [
+  "SamsungCamera",
+  "Chromecast"
+ ],
+ "identity_class_order": [
+  "HueBulb",
+  "Echo",
+  "TPLinkPlug",
+  "NetatmoCamera",
+  "iHome",
+  "LIFX",
+  "WeMoSwitch",
+  "WeMoMotion"
+ ],
+ "thr_id": {
+  "HueBulb": 0.9966666666666667,
+  "Echo": 0.9955555555555554,
+  "TPLinkPlug": 1.0,
+  "NetatmoCamera": 1.0,
+  "iHome": 0.9988888888888888,
+  "LIFX": 0.9977777777777778,
+  "WeMoSwitch": 1.0,
+  "WeMoMotion": 0.9988888888888888
+ },
+ "thr_det": {
+  "WeMoMotion": 0.023385852817445988,
+  "WeMoSwitch": 0.02339948518201711,
+  "SamsungCamera": 0.01031484331935646,
+  "TPLinkPlug": 0.010036704130470753,
+  "NetatmoCamera": 9.031229274114594e-05,
+  "HueBulb": 0.031002547591924622,
+  "Echo": 0.024672894179821013,
+  "Chromecast": 0.07761428952217068,
+  "iHome": 0.0036118279653601353,
+  "LIFX": 0.0037930108816362864
+ },
+ "alarm_factor": 1.01,
+ "instance_rule_min_alarm_minutes": 2,
+ "vote_windows": 3,
+ "window_minutes": 15,
+ "min_rows_per_window": 10,
+ "feature_columns": "F = 40 log1p cells, then 40 cells of the trailing 5-minute mean (80); window features = mean,std,max of the 40 cells (120)",
+ "state_rule": "MATCH if P[claim] >= thr[claim]; else MISMATCH if max P >= 0.60, UNKNOWN if max P < 0.35, else UNCERTAIN; no registered claim -> UNREGISTERED_CLAIM",
+ "verified_in_trackC": [
+  "WeMoSwitch",
+  "TPLinkPlug",
+  "NetatmoCamera",
+  "LIFX"
+ ]
+}

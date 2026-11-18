@@ -1,0 +1,13 @@
+{
+ "files": {
+  "detector_weights.npz": "6b964dd834be875ff8b66db594d29af29c0c2f192e3ec98c9407c82d0b836966",
+  "identity_forest.npz": "c036f2d4a563fb00005d3c07ca770b2c6c5e05338c49fd3726c7a3599cd77ae1",
+  "replay_attack_index.json": "5b287794b63c6b531a8c905742fc563c473706a56e0746495c63ede7a17c3f3a",
+  "replay_attacks.npz": "dea932a9d9c65ac44aa36f317c403ed06ea8d80359349515fcfb5f3bc5f1483a",
+  "replay_clean.npz": "f7cada6559eabdabba45836f48577fa8d54c6579cbd7495c6c2748d8e8d3780d",
+  "results.json": "3e4aa696cfce8fa173f9078d1e29e6d6393fdc3ad771880dcc9b0b83c00e18e6",
+  "thresholds_and_meta.json": "89b1c675df364d62e80ee6168b1e6fd08378431b42f8a9e2824dceaf612ddebb"
+ },
+ "system": "N2 Phase B (Track C) demo bundle",
+ "version": 4
+}

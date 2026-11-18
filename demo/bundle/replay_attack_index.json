@@ -1,0 +1,1142 @@
+[
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1527827256000,
+  "end_ms": 1527827856000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1527851321000,
+  "end_ms": 1527851923000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1527854541000,
+  "end_ms": 1527855141000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 3,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1527868694000,
+  "end_ms": 1527869294000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 4,
+  "name": "TcpSynReflection1L2D2L",
+  "start_ms": 1527880245000,
+  "end_ms": 1527880845000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 5,
+  "name": "TcpSynReflection100L2D2L",
+  "start_ms": 1527883466000,
+  "end_ms": 1527884066000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1527909994000,
+  "end_ms": 1527910594000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 7,
+  "name": "PingOfDeath1L2D",
+  "start_ms": 1527918925000,
+  "end_ms": 1527919526000,
+  "rows": 41,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 8,
+  "name": "PingOfDeath100L2D",
+  "start_ms": 1527922140000,
+  "end_ms": 1527922740000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 9,
+  "name": "Ssdp10W2D2W",
+  "start_ms": 1527938057000,
+  "end_ms": 1527938657000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 10,
+  "name": "UdpDevice1L2D",
+  "start_ms": 1527945065000,
+  "end_ms": 1527945666000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 11,
+  "name": "UdpDevice100L2D",
+  "start_ms": 1527948284000,
+  "end_ms": 1527948884000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 12,
+  "name": "Ssdp10L2D2W",
+  "start_ms": 1528008104000,
+  "end_ms": 1528008704000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 13,
+  "name": "Ssdp1L2D2L",
+  "start_ms": 1528011637000,
+  "end_ms": 1528012237000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 14,
+  "name": "Ssdp100L2D2L",
+  "start_ms": 1528014857000,
+  "end_ms": 1528015457000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 15,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1528215199000,
+  "end_ms": 1528215799000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 16,
+  "name": "TcpSynReflection1W2D2W",
+  "start_ms": 1528295532000,
+  "end_ms": 1528296133000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a59832811",
+  "device": "WeMoMotion",
+  "j": 17,
+  "name": "TcpSynReflection100W2D2W",
+  "start_ms": 1528298733000,
+  "end_ms": 1528299333000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1527832106000,
+  "end_ms": 1527832706000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1527856158000,
+  "end_ms": 1527856758000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1527859377000,
+  "end_ms": 1527859977000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 3,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1527873495000,
+  "end_ms": 1527874095000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 4,
+  "name": "TcpSynReflection1L2D2L",
+  "start_ms": 1527885081000,
+  "end_ms": 1527885682000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 5,
+  "name": "TcpSynReflection100L2D2L",
+  "start_ms": 1527888305000,
+  "end_ms": 1527888905000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1527914795000,
+  "end_ms": 1527915395000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 7,
+  "name": "PingOfDeath1L2D",
+  "start_ms": 1527923756000,
+  "end_ms": 1527924356000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 8,
+  "name": "PingOfDeath100L2D",
+  "start_ms": 1527926974000,
+  "end_ms": 1527927574000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 9,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1528221024000,
+  "end_ms": 1528221624000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 10,
+  "name": "TcpSynReflection1W2D2W",
+  "start_ms": 1528289721000,
+  "end_ms": 1528290321000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "ec1a5979f489",
+  "device": "WeMoSwitch",
+  "j": 11,
+  "name": "TcpSynReflection100W2D2W",
+  "start_ms": 1528292921000,
+  "end_ms": 1528293521000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1527836944000,
+  "end_ms": 1527837544000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1527860996000,
+  "end_ms": 1527861596000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1527864215000,
+  "end_ms": 1527864815000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 3,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1527878296000,
+  "end_ms": 1527878896000,
+  "rows": 49,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 4,
+  "name": "TcpSynReflection1L2D2L",
+  "start_ms": 1527889925000,
+  "end_ms": 1527890525000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 5,
+  "name": "TcpSynReflection100L2D2L",
+  "start_ms": 1527893138000,
+  "end_ms": 1527893738000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1527919596000,
+  "end_ms": 1527920197000,
+  "rows": 40,
+  "minutes_in_instance": 0
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 7,
+  "name": "PingOfDeath1L2D",
+  "start_ms": 1527935202000,
+  "end_ms": 1527935802000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 8,
+  "name": "PingOfDeath100L2D",
+  "start_ms": 1527938417000,
+  "end_ms": 1527939017000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 9,
+  "name": "UdpDevice10W2D",
+  "start_ms": 1527944959000,
+  "end_ms": 1527945559000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 10,
+  "name": "UdpDevice1L2D",
+  "start_ms": 1527949904000,
+  "end_ms": 1527950504000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 11,
+  "name": "UdpDevice100L2D",
+  "start_ms": 1527953123000,
+  "end_ms": 1527953723000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 12,
+  "name": "Snmp10W2D2W",
+  "start_ms": 1527956626000,
+  "end_ms": 1527957226000,
+  "rows": 49,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 13,
+  "name": "Smurf1L2D2L",
+  "start_ms": 1527961822000,
+  "end_ms": 1527962423000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 14,
+  "name": "Smurf100L2D2L",
+  "start_ms": 1527965037000,
+  "end_ms": 1527965637000,
+  "rows": 49,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 15,
+  "name": "Snmp10L2D2L",
+  "start_ms": 1527969880000,
+  "end_ms": 1527970480000,
+  "rows": 45,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 16,
+  "name": "Snmp1L2D2W",
+  "start_ms": 1528001914000,
+  "end_ms": 1528002515000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 17,
+  "name": "Snmp100L2D2W",
+  "start_ms": 1528003135000,
+  "end_ms": 1528003735000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 18,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1528226233000,
+  "end_ms": 1528226833000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 19,
+  "name": "TcpSynReflection1W2D2W",
+  "start_ms": 1528280869000,
+  "end_ms": 1528281470000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "00166cab6b88",
+  "device": "SamsungCamera",
+  "j": 20,
+  "name": "TcpSynReflection100W2D2W",
+  "start_ms": 1528284070000,
+  "end_ms": 1528284670000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1527841774000,
+  "end_ms": 1527842374000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1527865835000,
+  "end_ms": 1527866436000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1527869057000,
+  "end_ms": 1527869657000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 3,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1527883097000,
+  "end_ms": 1527883697000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 4,
+  "name": "TcpSynReflection1L2D2L",
+  "start_ms": 1527894761000,
+  "end_ms": 1527895361000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 5,
+  "name": "TcpSynReflection100L2D2L",
+  "start_ms": 1527897987000,
+  "end_ms": 1527898587000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1527924398000,
+  "end_ms": 1527924998000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 7,
+  "name": "PingOfDeath1L2D",
+  "start_ms": 1527928594000,
+  "end_ms": 1527929195000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 8,
+  "name": "PingOfDeath100L2D",
+  "start_ms": 1527931814000,
+  "end_ms": 1527932415000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 9,
+  "name": "Smurf10L2D2L",
+  "start_ms": 1527958575000,
+  "end_ms": 1527959175000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 10,
+  "name": "TcpSynDevice1W2D",
+  "start_ms": 1528229672000,
+  "end_ms": 1528230273000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 11,
+  "name": "TcpSynDevice100W2D",
+  "start_ms": 1528232873000,
+  "end_ms": 1528233473000,
+  "rows": 39,
+  "minutes_in_instance": 9
+ },
+ {
+  "mac": "50c7bf005639",
+  "device": "TPLinkPlug",
+  "j": 12,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1528277506000,
+  "end_ms": 1528278106000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1527846610000,
+  "end_ms": 1527847210000,
+  "rows": 40,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1527870675000,
+  "end_ms": 1527871276000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1527873890000,
+  "end_ms": 1527874490000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 3,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1527887898000,
+  "end_ms": 1527888498000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 4,
+  "name": "TcpSynReflection1L2D2L",
+  "start_ms": 1527899600000,
+  "end_ms": 1527900201000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 5,
+  "name": "TcpSynReflection100L2D2L",
+  "start_ms": 1527902817000,
+  "end_ms": 1527903417000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1527929199000,
+  "end_ms": 1527929799000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 7,
+  "name": "TcpSynDevice1W2D",
+  "start_ms": 1528253682000,
+  "end_ms": 1528254282000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 8,
+  "name": "TcpSynDevice100W2D",
+  "start_ms": 1528256883000,
+  "end_ms": 1528257483000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "70ee50183443",
+  "device": "NetatmoCamera",
+  "j": 9,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1528266626000,
+  "end_ms": 1528267226000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 0,
+  "name": "TcpSynDevice10L2D",
+  "start_ms": 1540350097000,
+  "end_ms": 1540350697000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 1,
+  "name": "PingOfDeath1L2D",
+  "start_ms": 1540352509000,
+  "end_ms": 1540353109000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 2,
+  "name": "PingOfDeath100L2D",
+  "start_ms": 1540354923000,
+  "end_ms": 1540355523000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 3,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1540357342000,
+  "end_ms": 1540357942000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 4,
+  "name": "Ssdp1L2D2W",
+  "start_ms": 1540360129000,
+  "end_ms": 1540360729000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 5,
+  "name": "Ssdp100L2D2W",
+  "start_ms": 1540361353000,
+  "end_ms": 1540361953000,
+  "rows": 49,
+  "minutes_in_instance": 9
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 6,
+  "name": "TcpSynDevice10W2D",
+  "start_ms": 1540363696000,
+  "end_ms": 1540364296000,
+  "rows": 49,
+  "minutes_in_instance": 9
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 7,
+  "name": "Smurf1L2D2L",
+  "start_ms": 1540365943000,
+  "end_ms": 1540366543000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 8,
+  "name": "Smurf100L2D2L",
+  "start_ms": 1540367763000,
+  "end_ms": 1540368363000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 9,
+  "name": "TcpSynReflection10L2D2L",
+  "start_ms": 1540369583000,
+  "end_ms": 1540370183000,
+  "rows": 49,
+  "minutes_in_instance": 9
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 10,
+  "name": "Ssdp1L2D2L",
+  "start_ms": 1540371397000,
+  "end_ms": 1540371998000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 11,
+  "name": "Ssdp100L2D2L",
+  "start_ms": 1540373217000,
+  "end_ms": 1540373817000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 12,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1540379531000,
+  "end_ms": 1540380131000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 13,
+  "name": "Ssdp1W2D2W",
+  "start_ms": 1540382707000,
+  "end_ms": 1540383308000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "0017882b9a25",
+  "device": "HueBulb",
+  "j": 14,
+  "name": "Ssdp100W2D2W",
+  "start_ms": 1540384708000,
+  "end_ms": 1540385308000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "44650d56ccd3",
+  "device": "Echo",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1540216550000,
+  "end_ms": 1540217150000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "44650d56ccd3",
+  "device": "Echo",
+  "j": 1,
+  "name": "UdpDevice1L2D",
+  "start_ms": 1540240592000,
+  "end_ms": 1540241193000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "44650d56ccd3",
+  "device": "Echo",
+  "j": 2,
+  "name": "UdpDevice100L2D",
+  "start_ms": 1540251009000,
+  "end_ms": 1540251609000,
+  "rows": 49,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "44650d56ccd3",
+  "device": "Echo",
+  "j": 3,
+  "name": "UdpDevice10W2D",
+  "start_ms": 1540305984000,
+  "end_ms": 1540306584000,
+  "rows": 49,
+  "minutes_in_instance": 9
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1540221380000,
+  "end_ms": 1540221980000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 1,
+  "name": "TcpSynDevice1L2D",
+  "start_ms": 1540269173000,
+  "end_ms": 1540269773000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 2,
+  "name": "TcpSynDevice100L2D",
+  "start_ms": 1540272392000,
+  "end_ms": 1540272992000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 3,
+  "name": "TcpSynReflection10L2D2L",
+  "start_ms": 1540276290000,
+  "end_ms": 1540276890000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 4,
+  "name": "Ssdp1L2D2L",
+  "start_ms": 1540285311000,
+  "end_ms": 1540285911000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 5,
+  "name": "Ssdp100L2D2L",
+  "start_ms": 1540288528000,
+  "end_ms": 1540289128000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 6,
+  "name": "Ssdp10L2D2W",
+  "start_ms": 1540291252000,
+  "end_ms": 1540291852000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 7,
+  "name": "TcpSynDevice1W2D",
+  "start_ms": 1540293174000,
+  "end_ms": 1540293774000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 8,
+  "name": "TcpSynDevice100W2D",
+  "start_ms": 1540294394000,
+  "end_ms": 1540294994000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 9,
+  "name": "TcpSynReflection10W2D2W",
+  "start_ms": 1540310295000,
+  "end_ms": 1540310895000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 10,
+  "name": "Ssdp1W2D2W",
+  "start_ms": 1540313470000,
+  "end_ms": 1540314070000,
+  "rows": 11,
+  "minutes_in_instance": 1
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 11,
+  "name": "Ssdp100W2D2W",
+  "start_ms": 1540315870000,
+  "end_ms": 1540316470000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "f4f5d88f0a3c",
+  "device": "Chromecast",
+  "j": 12,
+  "name": "TcpSynReflection1W2D2W",
+  "start_ms": 1540453525000,
+  "end_ms": 1540454125000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "74c63b29d71d",
+  "device": "iHome",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1540226210000,
+  "end_ms": 1540226811000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 0,
+  "name": "ArpSpoof10L2D",
+  "start_ms": 1540231049000,
+  "end_ms": 1540231649000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 1,
+  "name": "UdpDevice1L2D",
+  "start_ms": 1540244228000,
+  "end_ms": 1540244828000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 2,
+  "name": "UdpDevice100L2D",
+  "start_ms": 1540254243000,
+  "end_ms": 1540254843000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 3,
+  "name": "PingOfDeath10L2D",
+  "start_ms": 1540261222000,
+  "end_ms": 1540261822000,
+  "rows": 49,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 4,
+  "name": "Smurf1L2D2L",
+  "start_ms": 1540279892000,
+  "end_ms": 1540280492000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 5,
+  "name": "Smurf100L2D2L",
+  "start_ms": 1540283108000,
+  "end_ms": 1540283708000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ },
+ {
+  "mac": "d073d5018308",
+  "device": "LIFX",
+  "j": 6,
+  "name": "UdpDevice10W2D",
+  "start_ms": 1540300897000,
+  "end_ms": 1540301498000,
+  "rows": 50,
+  "minutes_in_instance": 10
+ }
+]

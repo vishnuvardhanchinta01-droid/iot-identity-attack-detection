@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Device identity demo</title><link rel="stylesheet" href="/style.css"></head><body>
+<header>
+ <div class="brand"><h1>Device identity &amp; attack detection</h1><div class="sub">Recorded IoT traffic replayed offline · the real models score it live</div></div>
+ <nav id="nav"><button data-t="dev" class="on">Device traffic</button><button data-t="ml">Attacks on the ML</button><button data-t="tam">Tampering</button></nav>
+ <div class="hright"><span id="bundle" class="badge n">checking…</span></div>
+</header>
+<main>
+
+<!-- ================= DEVICE TRAFFIC ================= -->
+<section id="dev" class="tab on">
+ <div class="subnav seg big" id="dv_mode" style="max-width:360px"><button data-v="manual" class="on">Manual</button><button data-v="presets">Presets</button></div>
+
+<div id="dv_two" class="grid">
+  <aside class="rail">
+   <div class="panel" id="dv_manual">
+    <h3>Set up the traffic</h3>
+    <label>Actual device sending the traffic</label><select id="m_src"></select>
+    <label>Identity it claims</label><select id="m_claim"></select>
+    <label>Traffic</label>
+    <div class="seg" id="m_mode"><button data-v="clean" class="on">Normal</button><button data-v="attack">Under attack</button></div>
+    <div id="m_attbox" style="display:none">
+     <label>Attack type</label><select id="m_type"></select>
+     <label>Recording (rate and direction)</label><select id="m_rec"></select>
+    </div>
+    <button class="btn wide" id="m_run">▶ Run</button>
+    <p class="note">Settings are fixed at the pre-registered values. Each run replays the device's recorded test traffic; an attack run replays one recorded attack.</p>
+   </div>
+   <div class="panel" id="dv_presets" style="display:none">
+    <div class="row"><h3 style="margin:0">Preset cases</h3><span class="sp"></span><button class="btn small" id="p_runall">Run all</button></div>
+    <div class="bar"><i id="p_bar"></i></div><div class="note" id="p_stat">Click a case to run it, or run them all.</div><div id="p_sum" class="sumrow"></div>
+    <div id="p_list"></div>
+   </div>
+  </aside>
+  <div class="stage" id="dv_result"></div>
+ </div>
+
+</section>
+
+<!-- ================= ATTACKS ON THE ML ================= -->
+<section id="ml" class="tab">
+ <div class="subnav seg big" id="ml_mode"><button data-v="imp" class="on">Impersonation</button><button data-v="poi">Poisoning</button></div>
+ <div id="ml_imp" class="stack">
+  <div class="panel"><p class="note lead">A compromised device tries to pass as another device. It can only <b>add</b> traffic and sees the verifier's score for every guess (a strong black-box attacker, the same procedure as in the ML-security experiment). It keeps every change that raises its score.</p>
+   <div class="seg small" id="i_mode"><button data-v="manual" class="on">Manual</button><button data-v="presets">Presets</button></div></div>
+  <div id="i_manual" class="grid">
+   <aside class="rail"><div class="panel"><h3>Set up the attack</h3>
+    <label>Device being impersonated</label><select id="a_t"></select><label>Attacker device</label><select id="a_b"></select>
+    <label>Most extra traffic allowed <b id="a_bv"></b></label><input type="range" id="a_bound" min="0.1" max="0.5" step="0.05" value="0.5">
+    <label>Guesses allowed <b id="a_qv"></b></label><input type="range" id="a_q" min="50" max="800" step="50" value="300">
+    <button class="btn wide" id="a_run">▶ Run attacker</button></div></aside>
+   <div class="stage" id="i_result"></div>
+  </div>
+  <div id="i_presets" style="display:none" class="panel">
+   <div class="row"><div><div class="ct">Presets: 8 attacker–target pairs</div><div class="note">For each verified device: the device most often confused with it, and one random device. 📋 = recorded ML-security result (3 seeds, up to 5,000 guesses). Live = rerun here now with 300 guesses.</div></div><span class="sp"></span><button class="btn" id="ip_runall">▶ Run all live</button></div>
+   <div class="bar"><i id="ip_bar"></i></div><div id="ip_table"></div></div>
+ </div>
+ <div id="ml_poi" class="stack" style="display:none">
+  <div class="panel recorded"><span class="pill n">📋 recorded result · not run live</span>
+   <p class="note">Poisoning means retraining the models on tampered training data. The training data is not part of the demo bundle and each retrain is slow, so these are the results of the pre-registered run, shown exactly as logged.</p></div>
+  <div id="poi_body" class="stack"></div>
+ </div>
+</section>
+
+<!-- ================= TAMPERING ================= -->
+<section id="tam" class="tab">
+ <div class="panel"><p class="note lead">Before any model loads, the app checks, in order: the <b>signature</b> (against a key built into the app), the <b>version</b> (must be version 4), the <b>file list</b>, and every file's <b>SHA-256</b>. Models are plain arrays (no pickle), so a bad file cannot run code. Every test runs on a copy of the bundle.</p>
+  <div class="seg small" id="t_mode"><button data-v="manual" class="on">Manual</button><button data-v="presets">Presets</button></div></div>
+ <div id="t_manual" class="grid">
+  <aside class="rail"><div class="panel"><h3>Choose the tampering</h3>
+   <label>What the attacker does</label><select id="t_op"></select>
+   <div id="t_filebox"><label>Target file</label><select id="t_file"></select></div>
+   <button class="btn wide" id="t_run">▶ Run</button></div></aside>
+  <div class="stage" id="t_result"></div>
+ </div>
+ <div id="t_presets" style="display:none" class="stack">
+  <div class="panel runall"><div class="row"><div class="ct big">All tampering tests</div><span class="sp"></span><button class="btn" id="tp_runall">▶ Run all</button></div><div class="bar"><i id="tp_bar"></i></div><div id="tp_sum" class="sumrow"></div></div>
+  <div class="panel"><div id="tp_table"></div></div>
+ </div>
+</section>
+
+</main><script src="/app.js"></script></body></html>
